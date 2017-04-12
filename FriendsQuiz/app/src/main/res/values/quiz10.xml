@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Single answer Quiz, radio buttons  -->
+
+    <string name="quiz10_question">Which season do Phoebe and Mike get married?</string>
+    <string name="quiz10_answer_one">Spring</string>
+    <string name="quiz10_answer_two">Summer</string>
+    <string name="quiz10_answer_three">Fall</string>
+    <string name="quiz10_answer_four">Winter</string>
+
+    <string name="quiz10_correct_answer">Winter</string>
+
+</resources>

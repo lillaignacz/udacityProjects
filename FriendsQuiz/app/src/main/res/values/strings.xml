@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="basic_question">Question</string>
+    <string name="basic_answer1">Answer1</string>
+    <string name="basic_answer2">Answer2</string>
+    <string name="basic_answer3">Answer3</string>
+    <string name="basic_answer4">Answer4</string>
+
+    <string name="answer_hint">Type your answer here</string>
+
+    <string name="next_button">Next</string>
+
+</resources>

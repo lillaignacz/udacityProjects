@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Multi answer Quiz, checkboxes  -->
+
+    <string name="quiz6_question">What types of animals do Joey and Chandler own?</string>
+    <string name="quiz6_answer_one">Dog</string>
+    <string name="quiz6_answer_two">Duck</string>
+    <string name="quiz6_answer_three">Parrot</string>
+    <string name="quiz6_answer_four">Chicken</string>
+
+    <string name="quiz6_correct_answer1">Duck</string>
+    <string name="quiz6_correct_answer2">Chicken</string>
+
+</resources>

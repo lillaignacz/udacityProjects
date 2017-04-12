@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text Answer, input text field  -->
+
+    <string name="quiz9_question">What was Rachel\'s job before working in fashion?</string>
+    <string name="quiz9_answer">waitress</string>
+    <string name="quiz9_correct_answer">waitress</string>
+
+</resources>

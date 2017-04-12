@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Single answer Quiz, radio buttons  -->
+
+    <string name="quiz4_question">What is Chandler\'s middle name?</string>
+    <string name="quiz4_answer_one">Michael</string>
+    <string name="quiz4_answer_two">Peter</string>
+    <string name="quiz4_answer_three">Muriel</string>
+    <string name="quiz4_answer_four">Thomas</string>
+
+    <string name="quiz4_correct_answer">Muriel</string>
+
+</resources>

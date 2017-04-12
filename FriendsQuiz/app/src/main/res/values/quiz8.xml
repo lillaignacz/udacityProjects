@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Multi answer Quiz, checkboxes  -->
+
+    <string name="quiz8_question">Who played in Friends?</string>
+    <string name="quiz8_answer_one">Ben Affleck</string>
+    <string name="quiz8_answer_two">Ben Stiller</string>
+    <string name="quiz8_answer_three">Tom Selleck</string>
+    <string name="quiz8_answer_four">Brad Pitt</string>
+
+    <string name="quiz8_correct_answer1">Ben Stiller</string>
+    <string name="quiz8_correct_answer2">Tom Selleck</string>
+    <string name="quiz8_correct_answer3">Brad Pitt</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Single answer Quiz, radio buttons  -->
+
+    <string name="quiz5_question">Whose catchphrase is \'Oh My God!\'?</string>
+    <string name="quiz5_answer_one">Monica</string>
+    <string name="quiz5_answer_two">Rachel</string>
+    <string name="quiz5_answer_three">Ursula</string>
+    <string name="quiz5_answer_four">Janice</string>
+
+    <string name="quiz5_correct_answer">Janice</string>
+
+</resources>

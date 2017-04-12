@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Single answer Quiz, radio buttons  -->
+
+    <string name="quiz7_question">Where did Monica and Chandler first get together?</string>
+    <string name="quiz7_answer_one">In Barbados at Ross\' paleontologist conference</string>
+    <string name="quiz7_answer_two">At Rachel and Ross\' wedding party</string>
+    <string name="quiz7_answer_three">In Las Vegas</string>
+    <string name="quiz7_answer_four">In London</string>
+
+    <string name="quiz7_correct_answer">In London</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Multi answer Quiz, checkboxes  -->
+
+    <string name="quiz1_question">Who was Ross married to?</string>
+    <string name="quiz1_answer_one">Rachel</string>
+    <string name="quiz1_answer_two">Carol</string>
+    <string name="quiz1_answer_three">Mona</string>
+    <string name="quiz1_answer_four">Emily</string>
+
+    <string name="quiz1_correct_answer1">Rachel</string>
+    <string name="quiz1_correct_answer2">Carol</string>
+    <string name="quiz1_correct_answer3">Emily</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text Answer, input text field  -->
+
+    <string name="quiz3_question">What instrument does Phoebe play?</string>
+    <string name="quiz3_answer">guitar</string>
+    <string name="quiz3_correct_answer">guitar</string>
+
+</resources>

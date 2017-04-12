@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Friends Quiz</string>
+    <string name="welcome_message">Welcome to the Friends Quiz! Are you ready for the challenge?</string>
+    <string name="start_button">Start</string>
+    <string name="error_message">"Please select your answer"</string>
+    <string name="points">You have <xliff:g id="points" example="1">%d</xliff:g> points</string>
+    <string name="correct_a">Correct</string>
+    <string name="false_a">False</string>
+    <string name="results_text"><xliff:g id="results" example="\nQuestion \nAnswer \nCorrect">%s</xliff:g></string>
+    <string name="results_header">Final results</string>
+    <string name="results_toast">Congratulations!</string>
+
+</resources>

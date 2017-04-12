@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Single answer Quiz, radio buttons  -->
+
+    <string name="quiz2_question">What is the Friends\' favourite place to go?</string>
+    <string name="quiz2_answer_one">Central Park</string>
+    <string name="quiz2_answer_two">Central Perk</string>
+    <string name="quiz2_answer_three">Central Cafe</string>
+    <string name="quiz2_answer_four">Costa Coffee</string>
+
+    <string name="quiz2_correct_answer">Central Perk</string>
+
+</resources>

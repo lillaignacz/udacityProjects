@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HeladeriaGiolatto</string>
+    <string name="description1">Giolatto is a traditional Italian ice cream parlor, which currently has six shops located in Marbella, San Pedro Alcántara, Estepona, Málaga, Fuengirola and Seville.
+        The ice cream we produce are natural and fresh, made daily by traditional processes with the best fresh fruit selected.
+    </string>
+    <string name="description2">Following our belief that everyone has the right to enjoy good ice cream, we also make ice cream for people with food intolerances.
+    </string>
+    <string name="phone">951 38 02 16</string>
+    <string name="email">marketing@giolatto.com</string>
+    <string name="address">Calle Miguel Cano, s/n, 29602 Marbella</string>
+    <string name="days">Monday - Sunday:</string>
+    <string name="time">12:00 - 23:30</string>
+</resources>

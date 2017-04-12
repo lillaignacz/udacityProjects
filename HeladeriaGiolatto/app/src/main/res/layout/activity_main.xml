@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.heladeriagiolatto.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/logoStyle"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                style="@style/descriptionStyle"
+                android:text="@string/description1" />
+
+            <LinearLayout
+                style="@style/imageContainerStyle">
+
+                <ImageView
+                    style="@style/imageStyle"
+                    android:src="@drawable/icecream1"/>
+                <ImageView
+                    style="@style/imageStyle"
+                    android:src="@drawable/icecream2"/>
+                <ImageView
+                    style="@style/imageStyle"
+                    android:src="@drawable/icecream3"/>
+                <ImageView
+                    style="@style/imageStyle"
+                    android:src="@drawable/icecream4"/>
+            </LinearLayout>
+
+            <TextView
+                style="@style/descriptionStyle"
+                android:text="@string/description2"/>
+
+            <ImageView
+                style="@style/imageContainerStyle"
+                android:src="@drawable/intolerance"/>
+
+            <LinearLayout
+                style="@style/infoContainerStyle">
+
+                <ImageView
+                    style="@style/iconStyle"
+                    android:src="@drawable/phone"/>
+
+                <TextView
+                    style="@style/infoStyle"
+                    android:text="@string/phone"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/infoContainerStyle">
+
+                <ImageView
+                    style="@style/iconStyle"
+                    android:src="@drawable/mail"/>
+
+                <TextView
+                    style="@style/infoStyle"
+                    android:text="@string/email"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/infoContainerStyle">
+
+                <ImageView
+                    style="@style/iconStyle"
+                    android:src="@drawable/location"/>
+
+                <TextView
+                    style="@style/infoStyle"
+                    android:text="@string/address"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/infoContainerStyle">
+
+                <ImageView
+                    style="@style/iconStyle"
+                    android:src="@drawable/time"/>
+
+                <TextView
+                    style="@style/infoStyle"
+                    android:text="@string/days"/>
+
+                <TextView
+                    style="@style/infoStyle"
+                    android:text="@string/time"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>

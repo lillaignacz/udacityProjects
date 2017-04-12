@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Play Football</string>
+    <string name="teamA">Portugal</string>
+    <string name="teamB">Hungary</string>
+</resources>

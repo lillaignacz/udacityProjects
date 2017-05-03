@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">MusicalStructure</string>
+
+    <string name="home_description">The Home screen will display recommended new albums.
+    Each of them will be implemented as Cards, containing a picture related to the content, the author and the album name.
+        All of these contents come from Spotify Web API.
+        By selecting an album, the user will be navigated to the Album Details screen.
+        Another function on the Home screen, that the user can navigate directly to the My Favourites screen.
+        Explicit intents are used to navigate between activities.
+    </string>
+
+    <string name="home_label">Home</string>
+
+    <string name="album">Let\'s see this Album</string>
+
+    <string name="favourites">My Favourites</string>
+
+    <string name="go_home">Home</string>
+
+    <string name="album_details_description">The Album Details screen will display detailed information about the selected album, such as album cover picture,
+        album and author name, and the song list. These contents come by using Spotify Web API.
+        The songs\' list will be implemented as java ArrayList. The user has the following options on this screen: Saving the whole
+        album or an individual song to their favourites, play the whole album or only one song, or go back to the Home screen to discover other albums.
+        Navigation to the other activities are using explicit intents.
+    </string>
+
+    <string name="album_details_label">Album Details</string>
+
+    <string name="favourites_description">The My Favourites screen will display the albums and the individual songs saved by the user.
+    There will be 2 categories: one for the albums and one for the songs. Both of the categories will be displayed in a HorizontalScrollView
+        with a horizontal LinearLayout child. The albums and songs will be stored in ArrayLists. Spotify Web API will be responsible for
+        handling the saved content.
+        The user can play an album/song by tapping on its name, and then will be navigated to the Now Playing screen using explicit intent.
+        Also, they can go back to the Home screen by tapping on the Home TextView.
+    </string>
+
+    <string name="favourites_label">My Favourites</string>
+
+    <string name="play">Play this song</string>
+
+    <string name="now_playing_description">The Now Playing activity is responsible for the actual media player functionality.
+        By using the MediaPlayer class, all of the required functions, like play/stop/pause/next song, etc will be available for the user.
+        From this screen the user can navigate to the My Favourites activity or the Home activity to choose an other album/song, by using explicit intents.
+    </string>
+    <string name="now_playing_label">Now Playing</string>
+
+    <string name="save_favourite">Save to My Favourites</string>
+
+</resources>

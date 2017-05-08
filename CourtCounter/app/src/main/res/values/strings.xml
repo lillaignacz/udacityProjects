@@ -2,4 +2,12 @@
     <string name="app_name">Play Football</string>
     <string name="teamA">Portugal</string>
     <string name="teamB">Hungary</string>
+    <string name="teamAWin">Portugal is the winner!</string>
+    <string name="teamBWin">Hungary is the winner!</string>
+    <string name="yellow_button">Yellow Card</string>
+    <string name="red_button">Red Card</string>
+    <string name="draw">Draw</string>
+    <string name="end_game">End Game</string>
+    <string name="new_game">New Game</string>
+    <string name="toast_message">New game has started</string>
 </resources>

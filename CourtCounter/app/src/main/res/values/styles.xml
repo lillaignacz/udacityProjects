@@ -2,11 +2,62 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Primary theme color of the app (sets background color of app bar) -->
-        <item name="colorPrimary">#c5ffb2</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <!-- Background color of buttons in the app -->
-        <item name="colorButtonNormal">#c5ffb2</item>
+        <item name="colorButtonNormal">@color/colorTextPrimary</item>
     </style>
 
+    <style name="team_name_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="score_display_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:text">0</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textSize">56sp</item>
+    </style>
+
+    <style name="score_button_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:text">Score</item>
+    </style>
+
+    <style name="card_button_style">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="card_display_style">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">0</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textSize">34dp</item>
+    </style>
+
+    <style name="game_control_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
 </resources>

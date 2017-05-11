@@ -7,6 +7,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
     </style>
 
     <style name="QuestionStyle" parent="@android:style/TextAppearance.Medium">
@@ -15,7 +16,7 @@
         <item name="android:gravity">center_vertical</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textColor">@color/colorQuestion</item>
-        <item name="android:layout_margin">@dimen/question_margin</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
     </style>
 
 
@@ -24,7 +25,8 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textColor">@color/colorAnswer</item>
-        <item name="android:layout_margin">@dimen/answer_margin</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_margin">8dp</item>
         <item name="android:paddingLeft">24dp</item>
     </style>
 
@@ -33,14 +35,14 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textColor">@color/colorAnswer</item>
-        <item name="android:layout_margin">@dimen/answer_margin</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
     </style>
 
     <style name="LogoStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:scaleType">centerInside</item>
-        <item name="android:layout_margin">@dimen/logo_margin</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
     </style>
 
     <style name="MainLogoStyle">
@@ -53,6 +55,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
     </style>
 
     <style name="ResultsLogoStyle">
@@ -68,11 +71,15 @@
         <item name="android:textAllCaps">true</item>
         <item name="android:textColor">@color/colorQuestion</item>
         <item name="android:textSize">24sp</item>
-        <item name="android:layout_margin">@dimen/question_margin</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
         <item name="android:layout_alignParentBottom">true</item>
     </style>
 
-    <style name="pointStyle">
+    <style name="ResultMessageStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
         <item name="android:textColor">@android:color/black</item>
     </style>

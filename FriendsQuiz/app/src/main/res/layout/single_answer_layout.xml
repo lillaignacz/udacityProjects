@@ -16,10 +16,16 @@
             style="@style/LogoStyle"
             android:src="@drawable/friendslogo"/>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimaryLight">
+        </View>
+
         <TextView
             android:id="@+id/single_a_question"
             style="@style/QuestionStyle"
-            android:text="@string/basic_question"/>
+            android:text="@string/sample_question"/>
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -28,27 +34,33 @@
             <RadioButton
                 android:id="@+id/single_a_answer1"
                 style="@style/AnswerStyle"
-                android:text="@string/basic_answer1"/>
+                android:background="@color/answer1_background"
+                android:text="@string/sample_answer1"/>
 
             <RadioButton
                 android:id="@+id/single_a_answer2"
                 style="@style/AnswerStyle"
-                android:text="@string/basic_answer2"/>
+                android:background="@color/answer2_background"
+                android:text="@string/sample_answer2"/>
 
             <RadioButton
                 android:id="@+id/single_a_answer3"
                 style="@style/AnswerStyle"
-                android:text="@string/basic_answer3"/>
+                android:background="@color/answer3_background"
+                android:text="@string/sample_answer3"/>
 
             <RadioButton
                 android:id="@+id/single_a_answer4"
                 style="@style/AnswerStyle"
-                android:text="@string/basic_answer4"/>
+                android:background="@color/answer4_background"
+                android:text="@string/sample_answer4"/>
 
             <Button
+                android:id="@+id/next_button"
+                android:onClick="goToNext"
                 style="@style/ButtonStyle"
                 android:text="@string/next_button"
-                android:onClick="goToNext"/>
+                />
 
         </RadioGroup>
 

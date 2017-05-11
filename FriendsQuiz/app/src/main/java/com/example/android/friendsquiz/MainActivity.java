@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -12,16 +13,12 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
-    private List<Quiz> quizs = new ArrayList<>();
-    Map<String, List<String>> rightAnswers = new LinkedHashMap<>();
     int points = 0;
-
+    private List<Quiz> quizs = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goToNext(View view) {
-
         switch (quizs.size()) {
             case 0:
                 loadFirst();
@@ -103,7 +99,6 @@ public class MainActivity extends AppCompatActivity {
 
             case 10:
                 setContentView(R.layout.results_layout);
-                collectCorrectAnswers();
                 collectGivenAnswers();
                 showResults();
                 break;
@@ -113,17 +108,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
-    /*Collect the correct question and answers pairs into the rightAnswers LinkedHashMap*/
-    public void collectCorrectAnswers() {
-        for (Quiz quiz : quizs) {
-            String question = quiz.getQuestion().getText().toString();
-            List<String> correctAnswers = quiz.getCorrectAnswers();
-            rightAnswers.put(question, correctAnswers);
-        }
-    }
-
-    /*Collect the the given answers and put them into the givenAnswers LinkedHashMap */
+    /*Collect and set the user answers by using the setAnswer method */
     public void collectGivenAnswers() {
         for (Quiz quiz : quizs) {
             if (quiz instanceof MultiAnswerQuiz) {
@@ -154,23 +139,30 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
     public void showResults() {
-        for (Quiz quiz: quizs) {
-            QuizResult quizResult = new QuizResult(quiz.getQuestion().toString(), quiz.getAnswer(), false);
-            if (quiz.getAnswer().toString().equals(quiz.getCorrectAnswers().toString())) {
-                quizResult.setOk(true);
+        for (Quiz quiz : quizs) {
+            if (quiz.isCorrect()) {
                 incrementPoints();
             }
         }
 
-        String pointsMessage = getString(R.string.points, points);
-        displayPoints(pointsMessage);
+        TextView resultTV = (TextView) findViewById(R.id.points_text_view);
+        resultTV.setText(getString(R.string.result_message, points));
 
-        Toast toast = Toast.makeText(this, R.string.results_toast, Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(this, getString(R.string.results_toast, points), Toast.LENGTH_SHORT);
         toast.show();
-    }
 
+        points = 0;
+
+        Button startNewGameButton = (Button) findViewById(R.id.start_new_game);
+        startNewGameButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                loadFirst();
+                Toast toast = Toast.makeText(MainActivity.this, R.string.new_game_toast, Toast.LENGTH_SHORT);
+                toast.show();
+            }
+        });
+    }
 
     private Quiz initQuizOne() {
 
@@ -254,10 +246,8 @@ public class MainActivity extends AppCompatActivity {
 
     private Quiz initQuizSix() {
 
-        //Create question
         TextView question = setTextViewValue(R.id.multi_a_question_text_view, getString(R.string.quiz6_question));
 
-        //Create quiz
         Quiz quiz6 = new MultiAnswerQuiz(question,
                 Arrays.asList(setCheckBoxValue(R.id.multi_a_answer1, getString(R.string.quiz6_answer_one)),
                         setCheckBoxValue(R.id.multi_a_answer2, getString(R.string.quiz6_answer_two)),
@@ -289,10 +279,8 @@ public class MainActivity extends AppCompatActivity {
 
     private Quiz initQuizEight() {
 
-        //Create question
         TextView question = setTextViewValue(R.id.multi_a_question_text_view, getString(R.string.quiz8_question));
 
-        //Create quiz
         Quiz quiz8 = new MultiAnswerQuiz(question,
                 Arrays.asList(setCheckBoxValue(R.id.multi_a_answer1, getString(R.string.quiz8_answer_one)),
                         setCheckBoxValue(R.id.multi_a_answer2, getString(R.string.quiz8_answer_two)),
@@ -356,12 +344,6 @@ public class MainActivity extends AppCompatActivity {
     private EditText getTextField(@IdRes int id) {
         EditText editText = (EditText) findViewById(id);
         return editText;
-    }
-
-
-    private void displayPoints(String points) {
-        TextView pointsTextView = (TextView) findViewById(R.id.points_text_view);
-        pointsTextView.setText("" + points);
     }
 
 }

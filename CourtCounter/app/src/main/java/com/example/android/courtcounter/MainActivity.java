@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         final LinearLayout gameControlLayout = (LinearLayout) findViewById(R.id.game_control_layout);
         final TextView resultView = new TextView(this);
         resultView.setGravity(Gravity.CENTER);
-        resultView.setTextColor(getResources().getColor(R.color.colorTextPrimary));
+        resultView.setTextColor(getResources().getColor(R.color.colorPrimary));
         resultView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 36);
 
         finishButton.setOnClickListener(new View.OnClickListener() {

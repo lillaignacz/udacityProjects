@@ -16,10 +16,16 @@
             style="@style/LogoStyle"
             android:src="@drawable/friendslogo"/>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimaryLight">
+        </View>
+
         <TextView
             android:id="@+id/text_a_question"
             style="@style/QuestionStyle"
-            android:text="@string/basic_question" />
+            android:text="@string/sample_question" />
 
         <EditText
             android:id="@+id/text_a_answer"
@@ -27,9 +33,10 @@
             android:hint="@string/answer_hint"/>
 
         <Button
+            android:onClick="goToNext"
             style="@style/ButtonStyle"
             android:text="@string/next_button"
-            android:onClick="goToNext"/>
+           />
 
     </LinearLayout>
 

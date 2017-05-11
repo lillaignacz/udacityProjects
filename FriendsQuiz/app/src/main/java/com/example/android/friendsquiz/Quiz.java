@@ -53,4 +53,12 @@ public class Quiz {
         this.correctAnswers = correctAnswers;
     }
 
+    public boolean isCorrect(){
+        if (answer.toString().equals(correctAnswers.toString())) {
+            return true;
+        }
+        else
+            return false;
+    }
+
 }

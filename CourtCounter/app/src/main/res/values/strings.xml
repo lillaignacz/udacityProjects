@@ -6,6 +6,8 @@
     <string name="teamBWin">Hungary is the winner!</string>
     <string name="yellow_button">Yellow Card</string>
     <string name="red_button">Red Card</string>
+    <string name="default_score_values">0</string>
+    <string name="default_card_values">0</string>
     <string name="draw">Draw</string>
     <string name="end_game">End Game</string>
     <string name="new_game">New Game</string>

@@ -15,33 +15,42 @@
             style="@style/LogoStyle"
             android:src="@drawable/friendslogo"/>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryLight">
+        </View>
+
         <TextView
             android:id="@+id/multi_a_question_text_view"
             style="@style/QuestionStyle"
-            android:text="@string/basic_question" />
+            android:text="@string/sample_question" />
 
         <CheckBox
             android:id="@+id/multi_a_answer1"
             style="@style/AnswerStyle"
-            android:text="@string/basic_answer1" />
+            android:background="@color/answer1_background"
+            android:text="@string/sample_answer1" />
 
         <CheckBox
             android:id="@+id/multi_a_answer2"
             style="@style/AnswerStyle"
-            android:text="@string/basic_answer2" />
+            android:background="@color/answer2_background"
+            android:text="@string/sample_answer2" />
 
         <CheckBox
             android:id="@+id/multi_a_answer3"
             style="@style/AnswerStyle"
-            android:text="@string/basic_answer3" />
+            android:background="@color/answer3_background"
+            android:text="@string/sample_answer3" />
 
         <CheckBox
             android:id="@+id/multi_a_answer4"
+            android:background="@color/answer4_background"
             style="@style/AnswerStyle"
-            android:text="@string/basic_answer4" />
+            android:text="@string/sample_answer4" />
 
         <Button
-            android:id="@+id/next_button"
             android:onClick="goToNext"
             style="@style/ButtonStyle"
             android:text="@string/next_button"/>

@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#0277BD</color>
     <color name="colorPrimaryLight">#0288D1</color>
     <color name="colorAccent">#FFEB3B</color>
-    <color name="colorBackground">@android:color/white</color>
+    <color name="colorBackground">#FFFFFF</color>
 
     <color name="colorQuestion">@android:color/black</color>
     <color name="colorAnswer">@android:color/black</color>

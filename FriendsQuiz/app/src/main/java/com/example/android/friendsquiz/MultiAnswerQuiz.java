@@ -17,9 +17,4 @@ public class MultiAnswerQuiz extends Quiz {
     public List<CheckBox> getAnswerOptions() {
         return answerOptions;
     }
-
-    public void setAnswerOptions(List<CheckBox> answerOptions) {
-        this.answerOptions = answerOptions;
-    }
-
 }

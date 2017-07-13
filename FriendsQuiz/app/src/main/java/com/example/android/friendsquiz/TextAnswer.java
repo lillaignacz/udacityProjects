@@ -21,8 +21,4 @@ public class TextAnswer extends Quiz {
     public EditText getAnswerField() {
         return answerField;
     }
-
-    public void setAnswerField(EditText answerField) {
-        this.answerField = answerField;
-    }
 }

@@ -2,7 +2,6 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -16,7 +15,7 @@
         <item name="android:gravity">center_vertical</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textColor">@color/colorQuestion</item>
-        <item name="android:layout_margin">@dimen/default_margin</item>
+        <item name="android:layout_margin">@dimen/medium_margin</item>
     </style>
 
 
@@ -25,9 +24,9 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textColor">@color/colorAnswer</item>
-        <item name="android:padding">16dp</item>
-        <item name="android:layout_margin">8dp</item>
-        <item name="android:paddingLeft">24dp</item>
+        <item name="android:padding">@dimen/medium_margin</item>
+        <item name="android:layout_margin">@dimen/small_margin</item>
+        <item name="android:paddingLeft">@dimen/large_margin</item>
     </style>
 
     <style name="InputFieldStyle">
@@ -35,33 +34,33 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textColor">@color/colorAnswer</item>
-        <item name="android:layout_margin">@dimen/default_margin</item>
+        <item name="android:layout_margin">@dimen/medium_margin</item>
     </style>
 
     <style name="LogoStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:scaleType">centerInside</item>
-        <item name="android:layout_margin">@dimen/default_margin</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">@dimen/medium_margin</item>
     </style>
 
     <style name="MainLogoStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_gravity">center_horizontal</item>
     </style>
 
     <style name="ButtonStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:layout_margin">@dimen/default_margin</item>
+        <item name="android:layout_margin">@dimen/medium_margin</item>
     </style>
 
     <style name="ResultsLogoStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:scaleType">fitStart</item>
+        <item name="android:layout_gravity">center_horizontal</item>
     </style>
 
     <style name="ResultsHeaderStyle">
@@ -70,8 +69,8 @@
         <item name="android:gravity">center_horizontal</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textColor">@color/colorQuestion</item>
-        <item name="android:textSize">24sp</item>
-        <item name="android:layout_margin">@dimen/default_margin</item>
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:layout_margin">@dimen/medium_margin</item>
         <item name="android:layout_alignParentBottom">true</item>
     </style>
 
@@ -79,7 +78,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_horizontal</item>
-        <item name="android:layout_margin">@dimen/default_margin</item>
+        <item name="android:layout_margin">@dimen/medium_margin</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
         <item name="android:textColor">@android:color/black</item>
     </style>

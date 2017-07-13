@@ -21,8 +21,4 @@ public class SingleAnswerQuiz extends Quiz {
     public List<RadioButton> getAnswerOptions() {
         return answerOptions;
     }
-
-    public void setAnswerOptions(List<RadioButton> answerOptions) {
-        this.answerOptions = answerOptions;
-    }
 }

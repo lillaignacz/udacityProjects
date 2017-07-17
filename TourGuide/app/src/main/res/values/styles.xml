@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="img_style">
+        <item name="android:layout_height">@dimen/default_item_height</item>
+        <item name="android:layout_width">@dimen/default_item_height</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="description_container_style">
+        <item name="android:layout_height">@dimen/default_item_height</item>
+        <item name="android:layout_width">@dimen/dp_0</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/padding_medium</item>
+        <item name="android:paddingRight">@dimen/padding_small</item>
+    </style>
+
+    <style name="description_1_style">
+        <item name="android:layout_height">@dimen/dp_0</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="description_2_style">
+        <item name="android:layout_height">@dimen/dp_0</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="description_3_style">
+        <item name="android:layout_height">@dimen/dp_0</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="tab_style" parent="Widget.Design.TabLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="tabBackground">@color/colorPrimaryLight</item>
+        <item name="tabIndicatorColor">@color/colorAccent</item>
+        <item name="tabIndicatorHeight">@dimen/tab_indicator_height</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabTextColor">@color/colorSecondaryText</item>
+        <item name="tabSelectedTextColor">@color/colorPrimaryText</item>
+        <item name="tabMode">fixed</item>
+    </style>
+
+</resources>

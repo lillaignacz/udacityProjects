@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Marbella Tour Guide</string>
+
+    <!--Strings of category labels-->
+    <string name="category_label_sights">Sights</string>
+    <string name="category_label_beaches">Beaches</string>
+    <string name="category_label_restaurants">Foods</string>
+    <string name="category_label_events">Events</string>
+
+    <!--Strings of Sights category-->
+    <string name="sight_1_name">Marbella Old Town</string>
+    <string name="sight_2_name">Avenida del Mar</string>
+    <string name="sight_3_name">Alameda Park</string>
+    <string name="sight_4_name">Paseo Maritimo</string>
+    <string name="sight_5_name">Puerto Deportivo</string>
+    <string name="sight_6_name">Puerto Banus Marina</string>
+    <string name="sight_7_name">Aventura Amazonia</string>
+
+    <string name="sight_1_description_2">Narrow white washed streets, old churches and squares.</string>
+    <string name="sight_2_description_2">A modern urban square with a collection of sculptures by Salvador Dali.</string>
+    <string name="sight_3_description_2">A beautiful garden in the heart of Marbella full of tropical plants.</string>
+    <string name="sight_4_description_2">A seafront promenade with great restaurants, cafes and shops.</string>
+    <string name="sight_5_description_2">A busy port with boats and jachts, pubs and restaurants.</string>
+    <string name="sight_6_description_2">Designer boutiqes, trendy bars, nightclubs and gourmet restaurants.</string>
+    <string name="sight_7_description_2">The largest adventure park in Andalusia - 83 challenges and 20 ziplines.</string>
+
+    <string name="sight_1_address">Av. Ricardo Soriano, 1, 29601</string>
+    <string name="sight_2_address">Av. del Mar, 29602</string>
+    <string name="sight_3_address">Avda. Ramón y Cajal, 29602 </string>
+    <string name="sight_4_address">Av. Duque de Ahumada, 29600 </string>
+    <string name="sight_5_address">Paseo Marítimo de Marbella, 29602</string>
+    <string name="sight_6_address">Puerto José Banús, 29660</string>
+    <string name="sight_7_address">C/ Valeriano Rodríguez, 2, 29604</string>
+
+    <string name="sight_1_geolocation">"geo:0,0?q=36.509415, -4.886646(Marbella Old Town)"</string>
+    <string name="sight_2_geolocation">"geo:0,0?q=avenida+del+mar+marbella"</string>
+    <string name="sight_3_geolocation">"geo:0,0?q=alameda+park+marbella"</string>
+    <string name="sight_4_geolocation">"geo:0,0?q=paseo+maritimo+marbella"</string>
+    <string name="sight_5_geolocation">"geo:0,0?q=puerto+deportivo+marbella"</string>
+    <string name="sight_6_geolocation">"geo:0,0?q=puerto+jose+banus+marbella"</string>
+    <string name="sight_7_geolocation">"geo:0,0?q=aventura+amazonia+marbella"</string>
+
+    <!--Strings of Beaches category-->
+    <string name="beach_1_name">Playa La Venus</string>
+    <string name="beach_2_name">Playa El Faro</string>
+    <string name="beach_3_name">Playa Nagüeles</string>
+    <string name="beach_4_name">Playa de Cabopino</string>
+    <string name="beach_5_name">Nikki Beach</string>
+
+    <string name="beach_1_description_2">Centrally situated beach with beach bars, sun beds, playground and outside gym.</string>
+    <string name="beach_2_description_2">Very sheltered and calm water and a playground for children.</string>
+    <string name="beach_3_description_2">A short walk along the famous Golden Mile, luxury resorts and restaurants.</string>
+    <string name="beach_4_description_2">Exceptionally clean water, long sandy beaches and plenty of amenities.</string>
+    <string name="beach_5_description_2">Parties day and night, celebrities, luxury and champagne.</string>
+
+    <string name="beach_1_address">Av. Duque de Ahumada, 361, 29602</string>
+    <string name="beach_2_address">Av. Duque de Ahumada, 30, 29602</string>
+    <string name="beach_3_address">29602, Marbella</string>
+    <string name="beach_4_address">Carretera N-340, Km.194,7, 29604</string>
+    <string name="beach_5_address">Carretera de Cádiz, Km. 192, 29600</string>
+
+    <string name="beach_1_geolocation">"geo:0,0?q=36.506646, -4.883929(Playa La Venus)"</string>
+    <string name="beach_2_geolocation">"geo:0,0?q=36.506803, -4.892331(Playa El Faro)"</string>
+    <string name="beach_3_geolocation">"geo:0,0?q=36.502173, -4.921011(Playa Nagüeles)"</string>
+    <string name="beach_4_geolocation">"geo:0,0?q=cabopino+marbella"</string>
+    <string name="beach_5_geolocation">"geo:0,0?q=nikki+beach+marbella"</string>
+
+    <!--Strings of Restaurant category-->
+    <string name="restaurant_1_name">La Canasta</string>
+    <string name="restaurant_2_name">Jimera</string>
+    <string name="restaurant_3_name">Abastos Viandas Mercado Gourmet</string>
+    <string name="restaurant_4_name">Heladeria Giolatto</string>
+    <string name="restaurant_5_name">Da Bruno Sul Mare</string>
+    <string name="restaurant_6_name">Gourmet Burger Room</string>
+    <string name="restaurant_7_name">La Marina II</string>
+
+    <string name="restaurant_1_description_2">Bakery</string>
+    <string name="restaurant_2_description_2">Traditional Spanish</string>
+    <string name="restaurant_3_description_2">Italian, Thai, Spanish, Burger</string>
+    <string name="restaurant_4_description_2">Ice Cream</string>
+    <string name="restaurant_5_description_2">Italian</string>
+    <string name="restaurant_6_description_2">Burger</string>
+    <string name="restaurant_7_description_2">Snack Bar, Cocktails</string>
+
+    <string name="restaurant_1_address">Av. Ricardo Soriano, 1, 29601</string>
+    <string name="restaurant_2_address">Calle Carlos Mackintosh, 3, 29602</string>
+    <string name="restaurant_3_address">Av. Ricardo Soriano, 19, 29602</string>
+    <string name="restaurant_4_address">Calle Miguel Cano, 29602</string>
+    <string name="restaurant_5_address">Edificio Skol, Paseo Marítimo, 29601</string>
+    <string name="restaurant_6_address">Av. Antonio Belón, 18, 29602</string>
+    <string name="restaurant_7_address">Puerto Deportivo, 29602</string>
+
+    <string name="restaurant_1_geolocation">"geo:0,0?q=la+canasta+marbella"</string>
+    <string name="restaurant_2_geolocation">"geo:0,0?q=cafeteria+jimera+marbella"</string>
+    <string name="restaurant_3_geolocation">"geo:0,0?q=abastos+viandas+marbella"</string>
+    <string name="restaurant_4_geolocation">"geo:0,0?q=heladeria+giolatto+marbella"</string>
+    <string name="restaurant_5_geolocation">"geo:0,0?q=da+bruno+sul+mare+marbella"</string>
+    <string name="restaurant_6_geolocation">"geo:0,0?q=gourmet+burger+room+marbella"</string>
+    <string name="restaurant_7_geolocation">"geo:0,0?q=36.506548,-4.889836(La Marina)"</string>
+
+    <!--Strings of Events category-->
+    <string name="event_1_name">Semana Santa - Easter Holy Week</string>
+    <string name="event_2_name">Feria de San Bernabe</string>
+    <string name="event_3_name">Noche de San Juan - Night of San Juan</string>
+    <string name="event_4_name">Three Kings</string>
+    <string name="event_5_name">Starlite Festival</string>
+
+    <string name="event_1_description_2">Impressive processions with decorated thrones, pointy-hood wearing Nazarenos and musicians.</string>
+    <string name="event_2_description_2">A week-long summer fair with traditional food, music and dance</string>
+    <string name="event_3_description_2">A magical night celebrating the beginning of Summer with bonfires.</string>
+    <string name="event_4_description_2">The Three Kings arrives on the 5th of January with sweets for the children.</string>
+    <string name="event_5_description_2">A major music festival in the middle of summer.</string>
+
+</resources>
